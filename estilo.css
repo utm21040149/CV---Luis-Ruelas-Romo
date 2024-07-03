@@ -1,4 +1,3 @@
-/* importamos las fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
 *{
     font-family: "Titillium Web";
@@ -9,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* SECCION INICIO */
+/* Inicio */
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
     url("img/fondo.jpg");
@@ -26,7 +25,7 @@ html{
 .inicio .contenido-seccion header{
     padding: 30px;
 }
-/* menu lateral */
+/* Menu lateral */
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
@@ -44,7 +43,7 @@ html{
     margin-bottom: 10px;
     font-weight: bold;
 }
-/* ****** */
+/* Marcos */
 .inicio .contenido-seccion header .logo{
     font-weight: bold;
     font-size: 2.5rem;
@@ -115,12 +114,12 @@ html{
     top: -100px;
     transform: translateX(-50%);
 }
-/* estilos generales */
+
 .titulo-seccion{
     font-family: "Yellowtail";
     font-size: 1.5rem;
 }
-/* SECCION SOBRE MI */
+/* Parte de "Mi" */
 .sobremi{
     background-color: #e6e6e6;
     padding: 140px 0 100px 0;
@@ -167,7 +166,7 @@ html{
     font-weight: bold;
     margin: 8px 0;
 }
-/* SECCION HABILIDADES */     
+/* parte de las Habilidades */     
 .habilidades{
     padding: 80px 0 100px 0;
     text-align: center;
@@ -213,7 +212,7 @@ html{
     height: 30px;
     margin-right: 2px;
 }
-/* SECCION RESUMEN */
+/* El resumen */
 .resumen{
     background-color: #e6e6e6;
     padding: 140px 0 100px 0;
@@ -273,7 +272,7 @@ html{
     border-left: 1px solid #8f33eb;
     padding-left: 20px;
 }
-/* SECCION CONTACTO */
+/* Los contactos */
 .contacto{
     background-color: #202020;
     padding: 140px 0 100px 0;
@@ -299,7 +298,7 @@ html{
 .contacto .contenido-seccion .fila .col h2{
     color: #8f33eb;
 }
-/* SECCION RESPONSIVE */
+/* faltantes */
 @media screen and (max-width:800px){
     .habilidades .contenido-seccion .fila{
         display: block;
